@@ -15,10 +15,17 @@ The performance measures like the classification rate and the false positive rat
   MODEL TO BE USED
 
 1.Support Vector Machine
+
 2.Random Forest Classifier
+
 3.KNeighborsClassifier
+
 4.Ann
+
 5.Voting Classifier
+
 6.Stacking Classifier
+
 7.Logistic Regression
+
 8.Decision Tree
