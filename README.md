@@ -6,24 +6,16 @@
 
 ![Screenshot 2024-10-28 123732](https://github.com/user-attachments/assets/48f86169-1160-4e7e-ad32-4532dc522cfe)
 
-This study focuses on early stage lung cancer detection. Genetic K-Nearest Neighbour (GKNN) Algorithm is proposed for the detection which is a non parametric method. This optimization algorithm allows physicians to identify the nodules present in the CT lung images in the early stage hence the lung cancer. Since the manual interpretation of the lung cancer CT images are time consuming and very critical, to overcome this difficulty the Genetic Algorithm method is combined with K-Nearest Neighbour (K-NN) algorithm which would classify the cancer images quickly and effectively.
-
-The performance measures like the classification rate and the false positive rates are analyzed. In traditional K-NN algorithm, initially the distance between all the test and training samples are calculated and K-neighbours with greater distances are taken for classification. In this proposed method, by using Genetic Algorithm, K (50-100) numbers of samples are chosen for each iteration and the classification accuracy of 90% is achieved as fitness. The highest accuracy is recorded each time.
+Lung cancer is one of the leading causes of death worldwide, and early detection plays a crucial role in improving survival rates. In this project, we aim to predict the presence of lung cancer using CT scan images of lung nodules. The dataset consists of CT images, which are processed and analyzed using machine learning models. We apply models such as Support Vector Machine (SVM), XGBoost, and a Hard Voting Classifier to classify the nodules as benign or malignant. A Label Encoder is used to convert categorical labels into numerical format for model training. The goal is to develop an automated system that can assist healthcare professionals in early lung cancer detection, leading to better patient outcomes.
 
 ![Screenshot 2024-10-28 123802](https://github.com/user-attachments/assets/ed63a5be-16d3-4ccf-b3b0-6c32caa19193)
 
 1.Support Vector Machine
 
-2.Random Forest Classifier
+2.Voting Classifier
 
-3.KNeighborsClassifier
+3.XGboost
 
-4.Ann
+4.Label Encoder
 
-5.Voting Classifier
 
-6.Stacking Classifier
-
-7.Logistic Regression
-
-8.Decision Tree
